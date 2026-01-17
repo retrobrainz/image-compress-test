@@ -5,6 +5,7 @@ sharp(join(import.meta.dirname, "input.png"))
   .png({
     palette: true,
     effort: 10,
+    colors: 64,
   })
   .toFile(join(import.meta.dirname, "output.png"));
 
